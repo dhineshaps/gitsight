@@ -9,10 +9,10 @@ var path = require("path");
 
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "gitsense" is now active!');
+	console.log('Congratulations, your extension "gitsight" is now active!');
 
 
-	context.subscriptions.push(vscode.commands.registerCommand("gitsense.checkMerge", async () => {
+	context.subscriptions.push(vscode.commands.registerCommand("gitsight.checkMerge", async () => {
 	
 	   const filePath = await getActiveFilePath();
 
@@ -101,7 +101,7 @@ async function getActiveFilePath(): Promise<any> {
 
 			if (merge_validation === "yes") {
 
-					return `The Merge will result in conflict and has ${diff_count} modified`;
+					return `The Merge will result in conflict and has ${diff_count} new changes`;
 			} else{
 
 				return `Good to Merge and has ${diff_count} modified`;

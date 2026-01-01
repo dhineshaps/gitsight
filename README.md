@@ -1,4 +1,4 @@
-# GitSense
+# GitSight
 
 Git insights for safe merges, branch comparison, and conflict detection.
 
@@ -8,7 +8,7 @@ Git insights for safe merges, branch comparison, and conflict detection.
 - Git-based quick picks
 
 ## Commands
-- GitSense: Check Merge
+- GitSight: Check Merge
 
 
 ## Author

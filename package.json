@@ -1,16 +1,16 @@
 {
-  "name": "gitsense",
-  "displayName": "GitSense",
+  "name": "gitsight",
+  "displayName": "GitSight",
   "publisher": "fetquest",
-  "icon": "images/gitsense_icon.png",
+  "icon": "images/gitsight_icon.png",
   "description": "Git insights for safe merges, branch comparison, and conflict detection",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dhineshaps/gitsense"
+    "url": "https://github.com/dhineshaps/gitsight"
   },
-  "homepage": "https://github.com/dhineshaps/gitsense",
+  "homepage": "https://github.com/dhineshaps/gitsight",
   "bugs": {
-    "url": "https://github.com/dhineshaps/gitsense/issues"
+    "url": "https://github.com/dhineshaps/gitsight/issues"
   },
   "version": "0.1.0",
   "engines": {
@@ -24,8 +24,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "gitsense.checkMerge",
-        "category": "gitsense",
+        "command": "gitsight.checkMerge",
+        "category": "gitsight",
         "title": "Check Merge"
       }
     ]
